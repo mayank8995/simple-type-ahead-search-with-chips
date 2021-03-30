@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<style>
+             .suggestion{
+               list-style: none;
+               background-color: aqua;
+               position: relative;
+              /* top: -16px; */
+               bottom: 16px;
+             }
+             .h1{
+               background-color: yellow;
+             }
+             #menu ul{
+                list-style: none;
+              }
+              #menu li{
+                display: inline;
+              }
+              .item{
+                /* border: 1px solid green; */
+                /* background: grey; */
+                padding: 2px 2px 2px 2px;
+                margin: 2px;
+              }
+              #search{
+                width:100%;
+              }
+              .search-form{
+                width:50%;
+                position: absolute;
+              }
+              .pill{
+                background-color: #ddd;
+                border: none;
+                color: black;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                /* cursor: pointer; */
+                border-radius: 16px;
+              }
+              #countryName{
+                cursor: pointer;
+              }
+           </style>
+    </head>
+    <body  class="body-color">
+        <script defer src="practice.js"></script>
+           <form class="search-form">
+             <label for="search">Type ahead search bar with chips</label>
+            <input type="search" id="search"/>
+            <ul class="suggestion">
+            </ul>
+            <div id="menu">
+              <ul id="list">
+              </ul>
+            </div>
+           </form>
+        </body>
+</html>
